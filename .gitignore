@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.obsidian/
+.obsidian
+
+# Visual Studio temporary files and directories
+.vs/
+*.sln
+*.suo
+*.db
+*.sqlite
+sln.sqlite
+.suo
