@@ -1,135 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Student developer portfolio">
-<title>Tekle M Bahta | Developer Portfolio</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student developer portfolio">
+    <title>Tekle M Bahta | Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="site-header">
-    <div class="container nav-wrapper">
-        <a class="site-title" href="#home">Tekle M Bahta</a>
-        <nav aria-label="Main navigation">
-            <ul class="nav-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="assets/TekleMBahta_Resume.pdf" target="_blank" rel="noopener">Résumé</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a class="site-title" href="#home">Tekle M Bahta</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets/TekleMBahta_Resume.pdf" target="_blank" rel="noopener">Résumé</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<main>
-    <section id="home" class="hero">
-        <div class="container hero-content">
-            <div>
-                <p class="eyebrow">Developer Portfolio</p>
-                <h1>Hello, I’m <span>Tekle M Bahta</span>.</h1>
-                <p class="hero-text">
-                    Software development student based in the San Francisco Bay Area, studying Computer Science at Full Sail University with an upcoming concentration in Artificial Intelligence.
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div>
+                    <p class="eyebrow">Developer Portfolio</p>
+                    <h1>Hello, I’m <span>Tekle M Bahta</span>.</h1>
+                    <p class="hero-text">
+                        Software development student based in the San Francisco Bay Area, studying Computer Science at Full Sail University with an upcoming concentration in Artificial Intelligence.
+                    </p>
+                    <div class="button-row">
+                        <a class="button primary" href="#projects">View My Projects</a>
+                        <a class="button secondary" href="assets/TekleMBahta_Resume.pdf" target="_blank" rel="noopener">View Résumé</a>
+                    </div>
+                </div>
+
+                <img class="profile-image" src="images/TekleMBahta.jpg" alt="Photo of Tekle M Bahta">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container narrow">
+                <p class="section-label">About Me</p>
+                <h2>Who I Am as a Developer</h2>
+                <p>
+                    Originally from Oakland, California, I am building a rigorous foundation in C++ systems programming, modular software architecture, and version control workflows while studying Computer Science at Full Sail University.
                 </p>
-                <div class="button-row">
-                    <a class="button primary" href="#projects">View My Projects</a>
-                    <a class="button secondary" href="assets/TekleMBahta_Resume.pdf" target="_blank" rel="noopener">View Résumé</a>
+
+                <div class="skills-grid">
+                    <article class="info-card">
+                        <h3>Languages</h3>
+                        <p>C++, HTML, CSS</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Tools</h3>
+                        <p>Visual Studio, Git, GitHub, Obsidian</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Current Focus</h3>
+                        <p>C++ systems programming, memory management, and algorithmic design</p>
+                    </article>
                 </div>
             </div>
+        </section>
 
-            <img class="profile-image" src="images/TekleMBahta.jpg" alt="Photo of Tekle M Bahta">
-        </div>
-    </section>
+        <section id="projects" class="section alternate-background">
+            <div class="container">
+                <p class="section-label">Featured Work</p>
+                <h2>Projects</h2>
+                <p class="section-intro">
+                    Showcasing high-performance C++ console systems featuring robust memory management and advanced linguistic game mechanics.
+                </p>
 
-    <section id="about" class="section">
-        <div class="container narrow">
-            <p class="section-label">About Me</p>
-            <h2>Who I Am as a Developer</h2>
-            <p>
-                Originally from Oakland, California, I am building a rigorous foundation in C++ systems programming, modular software architecture, and version control workflows while studying Computer Science at Full Sail University.
-            </p>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="images/tigrinya-engine-preview.png" alt="Tigrinya Linguistic Game Engine interface preview">
+                        <div class="project-content">
+                            <p class="project-type">C++ Console Application</p>
+                            <h3>Tigrinya Linguistic Game Engine (~ Sovereign Frequencies)</h3>
+                            <p>
+                                A C++ console application that serves as both a strategic game and a tool to learn Tigrinya verbs from scratch. Players register bedrock root verbs via 3-digit shorthand, allowing the engine to dynamically generate 27 conjugation forms from Fidel family data.
+                            </p>
 
-            <div class="skills-grid">
-                <article class="info-card">
-                    <h3>Languages</h3>
-                    <p>C++, HTML, CSS</p>
-                </article>
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Interactive console menu loop featuring robust input validation and stream error recovery.</li>
+                                <li>Modular architecture ensuring explicit heap allocation safety (`new`/`delete`/`nullptr`).</li>
+                                <li>Dynamic shrinking-pool draw mechanisms, Vault Cracker puzzles, and Person Lab 270-word matrix integration.</li>
+                            </ul>
 
-                <article class="info-card">
-                    <h3>Tools</h3>
-                    <p>Visual Studio, Git, GitHub, Obsidian</p>
-                </article>
+                            <h4>What I Learned</h4>
+                            <p>
+                                Overcame technical hurdles including cross-platform UTF-8 code page encoding, non-integer input crash prevention, and dynamic memory validation loops.
+                            </p>
 
-                <article class="info-card">
-                    <h3>Current Focus</h3>
-                    <p>C++ systems programming, memory management, and algorithmic design</p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="section alternate-background">
-        <div class="container">
-            <p class="section-label">Featured Work</p>
-            <h2>Projects</h2>
-            <p class="section-intro">
-                Showcasing high-performance C++ console systems featuring robust memory management and advanced linguistic game mechanics.
-            </p>
-
-            <div class="project-grid">
-                <article class="project-card">
-                    <img src="images/project-placeholder.svg" alt="Tigrinya Linguistic Game Engine interface preview">
-                    <div class="project-content">
-                        <p class="project-type">C++ Console Application</p>
-                        <h3>Tigrinya Linguistic Game Engine (~ Sovereign Frequencies)</h3>
-                        <p>
-                            A C++ console application that serves as both a strategic game and a tool to learn Tigrinya verbs from scratch. Players register bedrock root verbs via 3-digit shorthand, allowing the engine to dynamically generate 27 conjugation forms from Fidel family data.
-                        </p>
-
-                        <h4>Key Features</h4>
-                        <ul>
-                            <li>Interactive console menu loop featuring robust input validation and stream error recovery.</li>
-                            <li>Modular architecture ensuring explicit heap allocation safety (`new`/`delete`/`nullptr`).</li>
-                            <li>Dynamic shrinking-pool draw mechanisms, Vault Cracker puzzles, and Person Lab 270-word matrix integration.</li>
-                        </ul>
-
-                        <h4>What I Learned</h4>
-                        <p>
-                            Overcame technical hurdles including cross-platform UTF-8 code page encoding, non-integer input crash prevention, and dynamic memory validation loops.
-                        </p>
-
-                        <div class="project-links">
-                            <a class="text-link" href="https://github.com/TekleMBahta/Tigrinya-Linguistic-Game-Engine" target="_blank" rel="noopener">View Repository</a>
-                            <a class="text-link" href="..." target="_blank" rel="noopener">Watch Demo</a>
+                            <div class="project-links">
+                                <a class="text-link" href="https://github.com/TekleMBahta/Tigrinya-Linguistic-Game-Engine" target="_blank" rel="noopener">View Repository</a>
+                                <a class="text-link" href="..." target="_blank" rel="noopener">Watch Demo</a>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section">
-        <div class="container narrow contact-section">
-            <p class="section-label">Contact</p>
-            <h2>Let’s Connect</h2>
-            <p>
-                Reach out for professional networking, collaboration, or software development inquiries.
-            </p>
+        <section id="contact" class="section">
+            <div class="container narrow contact-section">
+                <p class="section-label">Contact</p>
+                <h2>Let’s Connect</h2>
+                <p>
+                    Reach out for professional networking, collaboration, or software development inquiries.
+                </p>
 
-            <div class="contact-links">
-                <a class="button primary" href="https://github.com/TekleMBahta" target="_blank" rel="noopener">GitHub</a>
-                <a class="button secondary" href="assets/TekleMBahta_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
-                <a class="button secondary" href="tmbahta@student.fullsail.edu">Professional Email</a>
+                <div class="contact-links">
+                    <a class="button primary" href="https://github.com/TekleMBahta" target="_blank" rel="noopener">GitHub</a>
+                    <a class="button secondary" href="assets/TekleMBahta_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+                    <a class="button secondary" href="tmbahta@student.fullsail.edu">Professional Email</a>
+                </div>
             </div>
-        </div>
-    </section>
-</main>
+        </section>
+    </main>
 
-<footer class="site-footer">
-    <div class="container">
-        <p>&copy; 2026 Tekle M Bahta. Built with HTML, CSS, GitHub, and GitHub Pages.</p>
-    </div>
-</footer>
+    <main>
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; 2026 Tekle M Bahta. Built with HTML, CSS, GitHub, and GitHub Pages.</p>
+            </div>
+        </footer>
 </body>
 </html>
